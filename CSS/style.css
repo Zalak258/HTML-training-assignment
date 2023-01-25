@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+body {
+    margin: 0px;
+    /* width: 1560px;
+    height: 720px; */
+    background: #FAFAFA 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.left {
+    display: flex;
+    justify-content: center;
+}
+.hero{
+    margin-top: 72px;
+    margin-left: 166px;
+    width: 576px;
+    height: 576px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 31px #0000000A;
+    border: 20px solid #FFFFFF;
+    opacity: 1;
+}
+.right {
+    display: flex;
+    flex-direction: column;
+    margin-top: 106px;
+    margin-left: 164px;
+}
+.logo {  
+    width: 272px;
+    height: 58px;
+}
+.header {
+    margin-top: 19px;
+    text-align: left;
+    font: normal normal 300 40px/47px Roboto;
+    letter-spacing: 0px;
+    color: #3E3E3E;
+    opacity: 1;
+    width: 500px;
+    height: 100px;
+}
+.color-red {
+    color: #C8242F;
+}
+.titlelogin {
+    margin-top: 31px;
+    text-align: left;
+    font: normal normal normal 25px/33px Roboto;
+    letter-spacing: 0px;
+    color: #3E3E3E; 
+}
+.right input{
+    padding:10px;
+    margin-bottom: 27px;
+    width: 429px;
+    height: 49px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #ADADAD;
+    border-radius: 5px;
+}
+.container{
+    margin-top: 3px;
+    margin-bottom: 23px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto auto;
+}
+.login-button{
+    width: 138px;
+    height: 45px;
+    background: #C8242F 0% 0% no-repeat padding-box;
+    border-radius: 23px;
+    border: none;
+    color: white;
+}
+
+.login-button span {
+    text-align: left;
+font: Roboto;
+color: #FFFFFF;
+
+}
