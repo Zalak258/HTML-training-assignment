@@ -24,9 +24,13 @@
             <img src="/Images/select-downward.svg" class="select" alt="">
         </div>
         <div class="left1">
-            <div class="dashoard">
-                <img src="/Images/dashboard-active.svg" class="dash" alt=""> 
-                <div class="text1">Dashboard</div>
+            
+            <img src="/Images/dashboard-default.svg" class="dash" alt=""> 
+            <div class="text11">Dashboard</div>
+            
+            <div class="analy">
+            <img class="analysis" src="Images/graph-active.svg" alt="">
+            <div class="text21">Analysis</div>
             </div>
             
             <img class="inbox" src="Images/inbox-default.svg" alt="">
@@ -44,10 +48,10 @@
             <img class="setting" src="Images/setting-default.svg" alt="">
             <div class="text7">Setting</div>
         </div>
-        <div id="Ana"><strong>Analysis</strong></div>
+        <div class="Ana-txt"><strong>Analysis</strong></div>
 
-        <div id="form">
-            <div id="onecolumn"><span>One Column</span></div>
+        <div class="form">
+            <div class="onecolumn"><span>One Column</span></div>
             <form>
                 <div class="form-group">
                     <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Name">
@@ -64,7 +68,7 @@
                         placeholder="Multiple line"></textarea>
                 </div>
             </form>
-            <div id="twocolumn"><span>Two Column</span></div>
+            <div class="twocolumn"><span>Two Column</span></div>
 
             <form>
                 <div class="row">
@@ -88,7 +92,7 @@
                     </div>
                 </div>
             </form>
-            <div id="threecolumn"><span>Three Column</span></div>
+            <div class="threecolumn"><span>Three Column</span></div>
             <form>
                 <div class="row">
                     <div class="col">
@@ -102,7 +106,7 @@
                     </div>
                 </div>
             </form>
-            <div id="fourcolumn"><span>Four Column</span></div>
+            <div class="fourcolumn"><span>Four Column</span></div>
             <form>
                 <div class="row">
                     <div class="col">
@@ -125,14 +129,77 @@
                     </div>
                 </div>
             </form>
-            <div id="otherdesign"><span>Other Design Elements</span></div>
-            <div id="fileupload"><span>File Upload</span></div>
+            <div class="otherdesign"><span>Other Design Elements</span></div>
+            <div class="fileupload"><span>File Upload</span></div>
             <form>
                 <div class="form-group">
-                  <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                    <div class="btn">
+                        <label for="exampleFormControlFile1">
+                            <img src="Images\cloud-upload-icon.svg" alt="cloud">
+                            <span class="uploadcolor">Upload</span>
+                        </label>
+                    </div>
+                    <input type="file" class="form-control-file" id="exampleFormControlFile1" hidden>
+                    <span class="item">No item Selected</span>
                 </div>
-              </form>
-              <div id="radio"><span>Radio Button</span></div>
+            </form>
+            <div class="radio"><span>Radio Button</span></div>
+            <div class="form-group-3">
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                        value="option1">
+                    <label class="form-check-label" for="inlineRadio1">Option 1</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                        value="option2" checked >
+                    <label class="form-check-label" for="inlineRadio2">Option 2</label>
+                </div>
+            </div>
+            <div class="checkbox"><span>Checkbox</span></div>
+            <div class="form-group-3">
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                    <label class="form-check-label" for="inlineCheckbox1">Option 1</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2" checked>
+                    <label class="form-check-label" for="inlineCheckbox2" >Option 2</label>
+                </div>
+            </div>
+            <div class="snackbar"><span>Snackbar</span></div>
+            <div class="row">
+                <div class="col" id="column1">
+                    <img src="Images\error-icon.svg" alt="" class="error">
+                    <span class="errortxt">This is an error message</span>
+                </div>
+                <div class="col" id="column2">
+                    <img src="Images\info-icon.svg" alt="" class="information">
+                    <span class="infotxt">This is an Information message!</span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col" id="column3">
+                    <img src="Images\warning-icon.svg" alt="warning" class="warning">
+                    <span class="warningtxt">This is a warning message!</span>
+                </div>
+                <div class="col" id="column4">
+                    <img src="Images\success-icon.svg" alt="Success" class="success">
+                    <span class="successtxt">This is an Success message</span>
+                </div>
+            </div>
+            <div class="action"><span>Call to action</span></div>
+            <div class="form-group-3">
+                <button type="button" class="btn1 btn-primary">Primary</button>
+                <button type="button" class="btn2 btn-secondary">Secondary</button>
+            </div>
+            <div class="tab"><span>Tabs</span></div>
+            <div class="tab">
+                <div style="color: #C8242F; border-bottom: 2px solid #C8242F;">Tab 1</div>
+                <div style="color: #ADADAD;">Tab 2</div>
+                <div style="color: #ADADAD;">Tab 3</div>
+            </div>
+            <p style="margin: 22px;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing</p>
         </div>
     </div>
 </body>
