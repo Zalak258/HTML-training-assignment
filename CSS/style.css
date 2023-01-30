@@ -6,15 +6,8 @@ body {
     background: #FAFAFA 0% 0% no-repeat padding-box;
     opacity: 1;
 }
-.left {
-    display: flex;
-    justify-content: center;
-}
 .hero{
     margin-top: 72px;
-    margin-left: 166px;
-    width: 576px;
-    height: 576px;
     border-radius: 50%;
     box-shadow: 0px 4px 31px #0000000A;
     border: 20px solid #FFFFFF;
@@ -161,9 +154,6 @@ color: #FFFFFF;
     width: 30px;
     height: 20px;
     opacity: 1;
-}
-.xx{
-    display: flex;
 }
 .left1{
     top: 80px;
