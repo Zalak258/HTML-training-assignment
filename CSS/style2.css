@@ -2,35 +2,28 @@
     height:1359px;
     width: 1560px;
     background: #FAFAFA 0% 0% no-repeat padding-box;
-    position: relative;
 }
 .header1{
     height:80px;
     width:1560px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
-
 }
 .menu-bar{
     margin-top: 34px;
     margin-left: 29px;
-    bottom:34px;
     width: 18px;
     height: 12px;
-    opacity:1;
 }
 .logo1{
     margin-top: 25px;
     margin-left: 25px;
     width: 142px;
     height: 30px;
-    opacity: 1  
 }
 .search{
-    margin-top:32px;
     margin-left:79px;
     width: 16px;
     height: 16px;
-    opacity: 1;
 }
 .search-text{
     padding: 28px 0px;
@@ -66,7 +59,6 @@
     left: 14.5px;
     width: 30px;
     height: 20px;
-    opacity: 1;
 }
 .left1{
     top: 80px;
@@ -74,7 +66,6 @@
     width: 242px;
     height: 1279px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
-    opacity: 1; 
 }
 .dashboard{
     position: fixed;
@@ -84,15 +75,10 @@
     height: 43px;
     border-radius: 5px;
     background: #FFF3F4 0% 0% no-repeat padding-box;
-    opacity: 1;
 }
 .dash{
-    position: fixed;
-    top: 119px;
-    left: 48px;
     width: 15px;
     height: 15px;
-    opacity: 1;
 }
 .text1{
     position: fixed;
@@ -104,125 +90,30 @@
     font: normal normal normal 16px/21px Roboto;
     letter-spacing: 0px;
     color: #C8242F;
-    opacity: 1;
 }
 .analysis{
-    position:fixed;
-    top: 171px;
-    left: 46px;
     width: 19px;
     height: 18px;
-    opacity: 1;
-}
-.text2{
-    position: fixed;
-    top: 168px;
-    left: 75px;
-    width: 60px;
-    height: 21px;
-    text-align: left;
-    font: normal normal normal 16px/21px Roboto;
-    letter-spacing: 0px;
-    color: #3E3E3E;
-    opacity: 1;
 }
 .inbox{
-    position: fixed;
-    top: 225px;
-    left: 48px;
     width: 15px;
     height: 15px;
-    opacity: 1;
-}
-.text3{
-    position: fixed;
-    top: 221px;
-    left: 75px;
-    width: 39px;
-    height: 21px;
-    text-align: left;
-    font: normal normal normal 16px/21px Roboto;
-    letter-spacing: 0px;
-    color: #3E3E3E;
-    opacity: 1;
 }
 .history{
-    position:fixed;
-    top: 278px;
-    left: 47px;
     width: 16px;
     height: 16px;
-    opacity: 1;
-}
-.text4{
-    position: fixed;
-    top: 274px;
-    left: 75px;
-    width: 51px;
-    height: 21px;
-    text-align: left;
-    font: normal normal normal 16px/21px Roboto;
-    letter-spacing: 0px;
-    color: #3E3E3E;
-    opacity: 1;
 }
 .users{
-    position: fixed;
-    top: 330px;
-    left: 43px;
     width: 25px;
     height: 14px;
-    opacity: 1;
-}
-.text5{
-    position: fixed;
-    top: 327px;
-    left: 75px;
-    width: 41px;
-    height: 21px;
-    text-align: left;
-    font: normal normal normal 16px/21px Roboto;
-    letter-spacing: 0px;
-    color: #3E3E3E;
-    opacity: 1;
 }
 .maintenance{
-    position: fixed;
-    top: 383px;
-    left: 48px;
     width: 13px;
     height: 18px;
 }
-.text6{
-    position: fixed;
-    top: 380px;
-    left: 75px;
-    width: 92px;
-    height: 21px;
-    text-align: left;
-    font: normal normal normal 16px/21px Roboto;
-    letter-spacing: 0px;
-    color: #3E3E3E;
-}
 .setting{
-    position: fixed;
-    top: 436px;
-    left: 47px;
     width: 17px;
     height: 17px;
-    opacity: 1;
-}
-.text7{
-    position: fixed;
-    top: 433px;
-    left: 75px;
-    width: 50px;
-    height: 21px;
-    text-align: left;
-    font: normal normal normal 16px/21px Roboto;
-    letter-spacing: 0px;
-    color: #3E3E3E;
-    opacity: 1;
 }
 .right1{
     position: absolute;
@@ -232,14 +123,9 @@
     height: 39px;
     text-align: left;
     font-size: 30px;
-    letter-spacing: 0px;
     color: #000000;
-    opacity: 1;
 }
 .box1{
-    position: absolute;
-    top: 182px;
-    left: 292px;
     width: 219px;
     height: 116px;
     background-color: #FFFFFF;
@@ -248,9 +134,6 @@
    position: absolute;
     margin-top: 42px;
     margin-left: 38px;
-    width: 33px;
-    height: 33px;
-
 }
 #num1{
     font-size: 26px;
@@ -270,86 +153,21 @@
     background-color: #FFFFFF;
 }
 .new-product{
-    margin-top: 42px;
-    margin-left: 38px;
     width: 26px;
     height: 26px;
  
 }
-#num2{
-    font-size: 26px;
-    
-}
-.addp{
-    top: 31px;
-    left: 87px;
-    position: absolute;
-}
-.box3{
-    position: absolute;
-    top: 182px;
-    left: 791px;
-    width: 219px;
-    height: 116px;
-    background-color: #FFFFFF;
-}
-#num3{
-    font-size: 26px;
-}
 .total-product{
-    margin-top: 42px;
-    margin-left: 38px;
     width: 27px;
     height: 27px;
   
-}
-.totalp{
-    top: 31px;
-    left: 87px;
-    position: absolute;
-}
-.box4{
-    position: absolute;
-    top: 182px;
-    left: 1040px;
-    width: 219px;
-    height: 116px;
-    background-color: #FFFFFF;
-}
-#num4{
-    font-size: 26px;
-}
-.today{
-    top: 31px;
-    left: 87px;
-    position: absolute;
 }
 .dollar{
-    margin-top: 42px;
-    margin-left: 38px;
     width: 27px;
     height: 27px;
   
 }
-.box5{
-    position: absolute;
-    top: 182px;
-    left: 1290px;
-    width: 219px;
-    height: 116px;
-    background-color: #FFFFFF;
-}
-#num5{
-    font-size: 26px;
-}
-.totalsale{
-    top: 31px;
-    left: 87px;
-    position: absolute;
-}
 .money{
-    margin-top: 42px;
-    margin-left: 38px;
     width: 27px;
     height: 27px;
   
@@ -376,7 +194,6 @@
     position: absolute;
     text-align: left;
     color: #ADADAD;
-
 }
 
 #ytxt{
